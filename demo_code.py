@@ -35,6 +35,8 @@ class RandomNumberGenerator:
 
     def limits(self):
         return self.limits
+    def _xfoo(self):
+        return 1
 
     def get_number(self, min_max=[1, 10]):
         """Get a random number between min and max."""
